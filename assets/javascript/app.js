@@ -1,4 +1,5 @@
 console.log('connected!!');
+<<<<<<< HEAD
 
 var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
 url += '?' + $.param({
@@ -13,3 +14,6 @@ $.ajax({
 }).fail(function(err) {
   throw err;
 });
+=======
+var url = "http://developer.nytimes.com/article_search_v2.json";
+>>>>>>> 48cfdc1b22b7f719bff05918c8c05ea10183a975
